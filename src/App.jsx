@@ -112,7 +112,7 @@ const App = () => {
   return (
     <div style={{cursor: cursor}}>
       <div>
-        <h1>Pilk Map</h1>
+        <h1>pilkmap</h1>
       </div>
       <MapDisplay />
       <div>

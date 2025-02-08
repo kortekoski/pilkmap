@@ -111,7 +111,7 @@ const App = () => {
 
   return (
     <div style={{cursor: cursor}}>
-      <div>
+      <div style={{padding: '0'}}>
         <h1>pilkmap</h1>
       </div>
       <MapDisplay />
@@ -120,7 +120,6 @@ const App = () => {
         <button onClick={() => handleMarkerClick()}>
           Lisää merkintä
         </button>
-        <img src={marker_icon}/>
       </div>
     </div>
   )
